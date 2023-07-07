@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function portfolioCards() {
+function Portfolio() {
     return (
         <>
             <Container>
@@ -85,4 +85,4 @@ function portfolioCards() {
     );
 }
 
-export default portfolioCards;
+export default Portfolio;

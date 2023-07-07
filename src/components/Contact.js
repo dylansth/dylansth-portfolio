@@ -3,9 +3,9 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
-import MyAlert from './MyAlert';
+import MyAlert from './MyAlert'
 
-const ContactForm = () => {
+const Contact = () => {
 
     const initialState = {
         email: '',
@@ -78,7 +78,7 @@ const ContactForm = () => {
         </div>
     );
 };
-export default ContactForm;
+export default Contact;
 
 
 

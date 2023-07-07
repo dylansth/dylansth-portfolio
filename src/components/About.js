@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import selfPortrait from "../Assets/portrait1.png";
 
-function photo() {
+function About() {
     return (
         <Container style={{ textAlign: "center"}}>
             <p>Hello, my name is Dylan St. Hilaire and I am currently enrolled in UofT</p>
@@ -10,4 +10,4 @@ function photo() {
     );
 }
 
-export default photo;
+export default About;

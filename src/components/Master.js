@@ -1,30 +1,30 @@
 import React from "react";
 
 import NavBar from "./Navbar";
-import AboutPhoto from './AboutPhoto';
-import PortfolioCards from './PortfolioCards';
-import ContactForm from './ContactForm';
+import About from './About';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 import { useState } from "react";
 
-export default function WholePort() {
+export default function Master() {
 
     const [currentPage, setCurrentPage] = useState('');
 
     const renderPage = () => {
         if (currentPage === 'Home') {
-            return <AboutPhoto/>;
+            return <About/>;
         }
         if (currentPage === 'About') {
-            return <AboutPhoto/>;
+            return <About/>;
         }
         if (currentPage === 'Portfolio') {
-            return <PortfolioCards/>;
+            return <Portfolio/>;
         }
         if (currentPage === 'Contact') {
-            return <ContactForm/>;
+            return <Contact/>;
         }
-        return <ContactForm/>
+        return <Contact/>
     };
 
     const handlePageChange = (page) => setCurrentPage(page);

@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 
 
-function navBar({currentPage, handlePageChange}) {
+function NavBar({currentPage, handlePageChange}) {
 
     return (
         <ul className="nav nav-tabs">
@@ -28,11 +28,20 @@ function navBar({currentPage, handlePageChange}) {
           </li>
           <li className="nav-item">
             <a
-              href="#blog"
-              onClick={() => handlePageChange('Blog')}
-              className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
+              href="#portfolio"
+              onClick={() => handlePageChange('Portfolio')}
+              className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
             >
-              Blog
+              Portfolio
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              href="#resume"
+              onClick={() => handlePageChange('Resume')}
+              className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+            >
+              Resume
             </a>
           </li>
           <li className="nav-item">
@@ -48,4 +57,4 @@ function navBar({currentPage, handlePageChange}) {
       );
     }
 
-export default navBar;
+export default NavBar;

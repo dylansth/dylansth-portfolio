@@ -5,8 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Tailwind
 import 'tailwindcss/tailwind.css';
 
-import WholePort from './components/WholePort';
+import Master from './components/Master';
 
-const App = () => <WholePort/>
+const App = () => <Master/>
 
 export default App;
