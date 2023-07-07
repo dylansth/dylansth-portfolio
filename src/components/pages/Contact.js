@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import * as Yup from 'yup';
 import MyAlert from './MyAlert'
 
 const Contact = () => {
@@ -14,10 +13,6 @@ const Contact = () => {
     const [show, setShow] = useState(false)
     const [message, setMessage] = useState('')
     const [variant, setVariant] = useState('')
-
-    const SignupSchema = Yup.object().shape({
-        email: Yup.string().email('Invalid email').required('Email is required'),
-    });
 
     const handleSubmit = async (e) => {
         e.preventDefault()
