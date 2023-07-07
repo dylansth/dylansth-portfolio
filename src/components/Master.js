@@ -5,6 +5,7 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import Contact from './pages/Contact';
+import Footer from './pages/Footer'
 
 import { useState } from "react";
 
@@ -35,6 +36,9 @@ export default function Master() {
         <div>
             <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
+            <div>
+            <Footer/>
+            </div>
         </div>
     );
 }
