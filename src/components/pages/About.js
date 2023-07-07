@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container';
-import selfPortrait from "../Assets/portrait1.png";
+import selfPortrait from "../../Assets/portrait1.png";
 
 function About() {
     return (

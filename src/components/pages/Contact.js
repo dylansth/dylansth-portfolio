@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import Alert from 'react-bootstrap/Alert';
-import Button from 'react-bootstrap/Button';
 import MyAlert from './MyAlert'
 
 const Contact = () => {
@@ -38,6 +35,9 @@ const Contact = () => {
             setVariant('success')
             setShow(true)
         }
+        console.log('Email:', formState.email);
+        console.log('Name:', formState.name);
+        console.log('Message:', formState.message);
         setformState(initialState)
     };
 

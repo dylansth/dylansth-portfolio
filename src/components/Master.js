@@ -1,9 +1,10 @@
 import React from "react";
 
-import NavBar from "./Navbar";
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
+import NavBar from "./pages/Navbar";
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Contact from './pages/Contact';
 
 import { useState } from "react";
 
@@ -21,8 +22,8 @@ export default function Master() {
         if (currentPage === 'Portfolio') {
             return <Portfolio/>;
         }
-        if (currentPage === 'Contact') {
-            return <Contact/>;
+        if (currentPage === 'Resume') {
+            return <Resume/>;
         }
         return <Contact/>
     };
