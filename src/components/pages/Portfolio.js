@@ -6,82 +6,87 @@ import Col from 'react-bootstrap/Col';
 
 function Portfolio() {
     return (
-        <>
-            <Container>
+
+            <Container style={{ marginTop: "10%", marginBottom: "10%"}}>
                 <Row>
                     <Col md={6}>
+                    <a href='https://study-guide1-fc24eca05b24.herokuapp.com/#gsc.tab=0' target="_blank" rel="noopener noreferrer" >
                         <Card style={{ width: "75%" }}>
                             <Card.Img variant="top" src={spaceStock1} />
                             <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    Web Development Blog & Study Guide.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        </a>
                     </Col>
                     <Col md={6}>
+                    <a href='https://dylan-express-note-taker-fb84ae9ee1e4.herokuapp.com/' target="_blank" rel="noopener noreferrer" >
                         <Card style={{ width: "75%" }}>
                             <Card.Img variant="top" src={spaceStock1} />
                             <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    Take Notes with Express.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        </a>
                     </Col>
                 </Row>
                 <Row>
                     <Col md={6}>
+                    <a href='https://dylansth.github.io/weather-dashboard/' target="_blank" rel="noopener noreferrer" >
                         <Card style={{ width: "75%" }}>
                             <Card.Img variant="top" src={spaceStock1} />
                             <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    Weather Forcast Dashboard.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        </a>
                     </Col>
                     <Col md={6}>
+                    <a href='https://dylansth.github.io/daily-scheduler/' target="_blank" rel="noopener noreferrer" >
                         <Card style={{ width: "75%" }}>
                             <Card.Img variant="top" src={spaceStock1} />
                             <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    Daily Scheduler.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        </a>
                     </Col>
                 </Row>
                 <Row>
                     <Col md={6}>
+                    <a href='https://github.com/dylansth/nosql-social-network' target="_blank" rel="noopener noreferrer" >
                         <Card style={{ width: "75%" }}>
                             <Card.Img variant="top" src={spaceStock1} />
                             <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    NoSQL Social Network.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        </a>
                     </Col>
                     <Col md={6}>
+                    <a href='https://github.com/dylansth/readme-generator' target="_blank" rel="noopener noreferrer" >
                         <Card style={{ width: "75%" }}>
                             <Card.Img variant="top" src={spaceStock1} />
                             <Card.Body>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.
+                                    README.md Generator.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
+                        </a>
                     </Col>
                 </Row>
             </Container>
-        </>
     );
 }
 

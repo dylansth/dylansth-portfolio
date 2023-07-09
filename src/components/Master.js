@@ -15,18 +15,18 @@ export default function Master() {
 
     const renderPage = () => {
         if (currentPage === 'Home') {
-            return <About/>;
+            return <About />;
         }
         if (currentPage === 'About') {
-            return <About/>;
+            return <About />;
         }
         if (currentPage === 'Portfolio') {
-            return <Portfolio/>;
+            return <Portfolio />;
         }
         if (currentPage === 'Resume') {
-            return <Resume/>;
+            return <Resume />;
         }
-        return <Contact/>
+        return <Contact />
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
@@ -34,10 +34,14 @@ export default function Master() {
 
     return (
         <div>
-            <NavBar currentPage={currentPage} handlePageChange={handlePageChange}/>
-            {renderPage()}
             <div>
-            <Footer/>
+                <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
+            <div>
+                {renderPage()}
+            </div>
+            <div>
+                <Footer />
             </div>
         </div>
     );

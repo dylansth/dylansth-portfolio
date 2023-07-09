@@ -41,7 +41,7 @@ const Contact = () => {
     }
 
     return (
-        <div>
+        <div style={{ marginTop: "10%", marginBottom: "10%"}}>
             {show ? <MyAlert setShow={setShow} message={message} variant={variant} />
                 :
                 null}

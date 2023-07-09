@@ -9,8 +9,8 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Footer() {
     return (
-        <Navbar className="bg-body-tertiary">
-        <Container>
+        <Navbar className="bg-body-tertiary" style={{ position: 'fixed', width: '100%', bottom: '0'}}>
+            <Container>
         <a href="https://github.com/dylansth" target="_blank" rel="noopener noreferrer">
           <BsGithub />
         </a>
@@ -20,8 +20,9 @@ function Footer() {
         <a href="https://stackoverflow.com/users/22193072/dylansth" target="_blank" rel="noopener noreferrer">
           <BsStackOverflow />
         </a>
-        </Container>
-      </Navbar>
+            </Container>
+        </Navbar>
+
     )
 }
 
