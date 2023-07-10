@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.72cb94bc.css",
-    "main.js": "/static/js/main.1e059d15.js",
-    "static/js/787.30237536.chunk.js": "/static/js/787.30237536.chunk.js",
-    "static/media/portrait1.png": "/static/media/portrait1.1fb74e1e16eac14be156.png",
-    "static/media/spacestock1.png": "/static/media/spacestock1.716e6ba201448166b28e.png",
-    "static/media/dylan-resume-2022.pdf": "/static/media/dylan-resume-2022.f8010cb9007b6785acae.pdf",
-    "index.html": "/index.html",
-    "main.72cb94bc.css.map": "/static/css/main.72cb94bc.css.map",
-    "main.1e059d15.js.map": "/static/js/main.1e059d15.js.map",
-    "787.30237536.chunk.js.map": "/static/js/787.30237536.chunk.js.map"
+    "main.css": "/dylansth-portfolio/static/css/main.72cb94bc.css",
+    "main.js": "/dylansth-portfolio/static/js/main.061215ac.js",
+    "static/js/787.30237536.chunk.js": "/dylansth-portfolio/static/js/787.30237536.chunk.js",
+    "static/media/portrait1.png": "/dylansth-portfolio/static/media/portrait1.1fb74e1e16eac14be156.png",
+    "static/media/spacestock1.png": "/dylansth-portfolio/static/media/spacestock1.716e6ba201448166b28e.png",
+    "static/media/dylan-resume-2022.pdf": "/dylansth-portfolio/static/media/dylan-resume-2022.f8010cb9007b6785acae.pdf",
+    "index.html": "/dylansth-portfolio/index.html",
+    "main.72cb94bc.css.map": "/dylansth-portfolio/static/css/main.72cb94bc.css.map",
+    "main.061215ac.js.map": "/dylansth-portfolio/static/js/main.061215ac.js.map",
+    "787.30237536.chunk.js.map": "/dylansth-portfolio/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.72cb94bc.css",
-    "static/js/main.1e059d15.js"
+    "static/js/main.061215ac.js"
   ]
 }
